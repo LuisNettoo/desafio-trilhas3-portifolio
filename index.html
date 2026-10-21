@@ -6,24 +6,27 @@
     <title>Início | Portifolio de Luis Neto</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <div>
-            <img src="" alt="">
-            <h1>Luis Neto</p>
-            <p>Desenvolvedor Front-end no Programa Trilhas</p>
+    <main class="conteudo-principal">
+        <div class="conteudo-cabecalho">
+            <img src="./assets/foto.png" alt="" class="conteudo-foto">
+            <h1 class="conteudo-nome">Luis Neto</h1>
+            <p class="conteudo-titulo">Desenvolvedor Front-end no Programa Trilhas</p>
         </div>
-        <nav>
-            <ul>
-                <li><a href="./paginas/sobre-mim.html">Sobre mim</a></li>
-                <li><a href="./paginas/meus-projetos.html">Veja meus projetos</a></li>
-                <li><a href="#">Acesse os meus certificados</a></li>
+        <nav class="barra-navegacao">
+            <ul class="lista-links">
+                <li class="link"><a href="./paginas/sobre-mim.html">Sobre mim <span><img src="./assets/arrow-up-right.svg"></span></a></li>
+                <li class="link"><a href="./paginas/meus-projetos.html">Veja meus projetos<span><img src="./assets/arrow-up-right.svg"></span></a></li>
+                <li class="link"><a href="https://www.linkedin.com/in/luis-neto-8a8416255/details/certifications/" target="_blank">Acesse os meus certificados<span><img src="./assets/arrow-up-right.svg"></span></a></li>
             </ul>
         </nav>
-        <div>
-            <a href="https://github.com/LuisNettoo" target="_blank"><img src="./assets/GitHub.svg" alt="Logo do GitHub"></a>
-            <a href="https://www.linkedin.com/in/luis-neto-8a8416255" target="_blank"><img src="./assets/LinkedIn.svg" alt="Logo do LinkedIn"></a>
+        <div class="perfil">
+            <a href="https://github.com/LuisNettoo" target="_blank"><img src="./assets/GitHub.svg" alt="Logo do GitHub"> <span>GitHub</span></a>
+            <a href="https://www.linkedin.com/in/luis-neto-8a8416255" target="_blank"><img src="./assets/LinkedIn.svg" alt="Logo do LinkedIn"><span>LinkedIn</span></a>
         </div>
     </main>
 </body>
